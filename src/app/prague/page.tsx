@@ -1,3 +1,5 @@
+import React from "react";
+
 const Prague = () => {
   return (
     <div className="headline">

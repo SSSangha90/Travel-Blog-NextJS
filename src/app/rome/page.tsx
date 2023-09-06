@@ -1,3 +1,5 @@
+import React from "react";
+
 const Rome = () => {
   return (
     <div className="headline">

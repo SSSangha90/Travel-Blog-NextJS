@@ -1,3 +1,5 @@
+import React from "react";
+
 const Punjab = () => {
   return (
     <div className="headline">
