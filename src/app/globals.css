@@ -17,11 +17,19 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: #000;
+  background-color: aliceblue;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+.places-div {
+  border: 1px solid grey;
+  height: 10rem;
+  width: auto;
+  padding: 2rem;
+  margin: 1rem;
+  cursor: pointer;
 }
