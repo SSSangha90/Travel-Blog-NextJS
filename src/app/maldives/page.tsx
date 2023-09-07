@@ -1,9 +1,9 @@
 import React from "react";
 
-const Punjab = () => {
+const Maldives: React.FC = () => {
   return (
     <div className="headline">
-      <h1>Punjab</h1>
+      <h1>Maldives</h1>
       <p>
         Family vsit mostly but worth visiting for the rich culture. The best
         place for indian cuisine and some up and coming cities worth exploring
@@ -13,4 +13,4 @@ const Punjab = () => {
   );
 };
 
-export default Punjab;
+export default Maldives;

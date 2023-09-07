@@ -1,6 +1,6 @@
 import React from "react";
 
-const Vancouver = () => {
+const Vancouver: React.FC = () => {
   return (
     <div className="headline">
       <h1>Vancouver</h1>

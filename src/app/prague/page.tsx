@@ -1,6 +1,6 @@
 import React from "react";
 
-const Prague = () => {
+const Prague: React.FC = () => {
   return (
     <div className="headline">
       <h1>Prague</h1>
