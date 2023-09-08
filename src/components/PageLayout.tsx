@@ -25,19 +25,19 @@ const PageLayout: React.FC<IProps> = ({
             width={400}
             height={400}
             alt={alt1}
-            className=" h-60 object-cover rounded"
+            className=" h-60 object-cover rounded shadow-2xl"
           />
           <figcaption className="font-medium ">
             <div className="text-sky-500 dark:text-sky-400">{fig1}</div>
           </figcaption>
         </div>
         <figure className="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800">
-          <p className="text-center text-md ">{para1}</p>
+          <p className="text-center text-md w-4/5 ">{para1}</p>
         </figure>
       </div>
-      <div className="grid grid-cols-2 grid-rows-1  text-center items-center gap-6 ">
-        <div>
-          <p className="text-center text-md ">{para2}</p>
+      <div className="grid grid-cols-2 grid-rows-1  text-center items-center  ">
+        <div className="ml-16">
+          <p className="text-center text-md w-4/5">{para2}</p>
         </div>
         <div className="flex flex-col items-center gap-1">
           <Image
@@ -45,7 +45,7 @@ const PageLayout: React.FC<IProps> = ({
             width={400}
             height={400}
             alt={alt2}
-            className=" h-60 object-cover rounded"
+            className=" h-60 object-cover rounded shadow-2xl"
           />
           <figcaption className="font-medium ">
             <div className="text-sky-500 dark:text-sky-400">{fig2}</div>
@@ -59,14 +59,14 @@ const PageLayout: React.FC<IProps> = ({
             width={400}
             height={400}
             alt={alt3}
-            className=" h-60 object-cover rounded"
+            className=" h-60 object-cover rounded shadow-2xl"
           />
           <figcaption className="font-medium ">
             <div className="text-sky-500 dark:text-sky-400">{fig3}</div>
           </figcaption>
         </div>
         <div>
-          <p className="text-center text-md ">{para3}</p>
+          <p className="text-center text-md w-4/5">{para3}</p>
         </div>
       </div>
     </div>
