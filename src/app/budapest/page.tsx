@@ -1,5 +1,5 @@
 import React from "react";
-import PageLayout from "@/components/PageLayout";
+import PageLayout from "@/components/PageLayout/PageLayout";
 import bridge from "../../images/budapest/bridge.jpg";
 import basilica from "../../images/budapest/basilica.jpg";
 import goulash from "../../images/budapest/goulash.jpg";
