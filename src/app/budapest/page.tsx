@@ -3,17 +3,18 @@ import PageLayout from "@/components/PageLayout/PageLayout";
 import bridge from "../../images/budapest/bridge.jpg";
 import basilica from "../../images/budapest/basilica.jpg";
 import goulash from "../../images/budapest/goulash.jpg";
+import Headline from "@/components/Headline/Headline";
 
 const Budapest: React.FC = () => {
   return (
     <>
-      <div className="headline">
-        <h1>Budapest</h1>
-        <p>
-          Full of historic sites, including Buda Castle, as well as a bustling
-          night life. Lots to explore in a compact city.
-        </p>
-      </div>
+      <Headline
+        title="Budapest"
+        blurb="Full of historic sites, including Buda Castle, as well as a bustling
+          night life. Lots to explore in a compact city."
+        alt="Budapest"
+        image={bridge}
+      />
       <PageLayout
         alt1="Buda Castle"
         fig1="Buda Castle at night"
